@@ -38,7 +38,7 @@ header{
 .heroIntro{
   flex-direction: column;
 }
-
+}
 
 .sectionProsjects{ 
    display: flex;
@@ -49,6 +49,11 @@ header{
   .prosjectCard{
   border: 2px black solid;
   width: 300px;
+  }
+  @media ( max-width: 426px) {
+   .selectionProsjekt{
+    flex-direction: column;
+   } 
   }
   
 
